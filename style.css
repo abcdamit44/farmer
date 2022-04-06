@@ -42,7 +42,20 @@ main {
     margin: 0.75rem;
 }
 
-.farmerForm input {
+.w-75 {
+    width: 75%;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.farmerForm input,
+.farmerForm select {
     width: 100%;
     padding: 10px 15px;
     border-radius: 3px;
