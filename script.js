@@ -51,3 +51,7 @@ form.addEventListener('submit', (e) => {
     form.reset()
 })
 
+
+function formReset() {
+    location.href = "/"
+}

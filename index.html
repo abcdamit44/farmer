@@ -10,6 +10,10 @@
 </head>
 
 <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
     <main>
         <div class="farmerForm">
             <h1>Kisan Jankari</h1>
@@ -37,13 +41,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <button type="submit">Submit</button>
+                <div class="row w-70 m-auto">
+                    <button type="submit">Submit</button><button type="button" onclick="formReset()">reset</button>
                 </div>
             </form>
         </div>
 
     </main>
+
 
     <script src="./script.js"></script>
 </body>
